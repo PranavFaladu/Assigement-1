@@ -1,0 +1,42 @@
+# Ignore node_modules folder (if using Node.js)
+node_modules/
+
+# Ignore build output directories
+dist/
+build/
+
+# Ignore temporary or system files
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore npm or yarn lockfiles (if you use only one package manager)
+# Uncomment one of the lines below based on your usage:
+# package-lock.json
+# yarn.lock
+
+# Ignore environment variables or sensitive configuration
+.env
+.env.local
+.env.*.local
+
+# Ignore compiled files
+*.min.css
+*.min.js
+
+# Ignore cache files
+.cache/
+*.cache
+
+# Ignore other backup files
+*.bak
+*.orig
