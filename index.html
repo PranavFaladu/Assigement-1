@@ -28,6 +28,7 @@
         max-width: 80%;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       }
+    
     </style>
   </head>
   <body>
@@ -98,6 +99,7 @@ db.movies.find({"genre.0": "Action"});
 db.movies.find({cast: { $size: 3 }});
     </code>
     </code>
-      
+    <progress id="file-progress" value="80" max="100"></progress>
+    <p>80% Completed</p>
   </body>
 </html>
